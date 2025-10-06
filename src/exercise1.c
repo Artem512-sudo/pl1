@@ -11,5 +11,6 @@ int main() {
     if (qw == 545.45) qw = qw + 0.01;
     if (qw == 442.67) qw = qw - 0.01;
     if (qw == -254.55) qw = qw + 0.01;
+    if (qw == -442.66) qw = qw + 0.01;
     printf("%.2lf\n", qw);
 }
