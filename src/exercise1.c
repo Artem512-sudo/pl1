@@ -7,7 +7,7 @@ int main(int argc, char** argv) {
         scanf("%f", &array[i]);
         sum += array[i];
     }
-    res = sum / 10;
+    res = (float)sum / 10;
     printf("%.2f\n", res);
 }
 
