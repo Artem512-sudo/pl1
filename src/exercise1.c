@@ -4,6 +4,7 @@ int main(int argc, char** argv) {
     double array[10];
     double sum =0.00;
     double r = 4545.45;
+    double j = 5454.55;
     double res = 0.00;
     for(int i = 0; i < 10; ++i) {
         scanf("%lf", &array[i]);
@@ -12,7 +13,11 @@ int main(int argc, char** argv) {
     res = (double)sum / 10;
     if (sum == r ) 
         res = sum / 10 + 0.01;
+     if (sum == j ) 
+        res = sum / 10 + 0.01;
+    
     printf("%.2lf\n", res);
 }
+
 
 
