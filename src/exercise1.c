@@ -1,22 +1,16 @@
 #include <stdio.h>
 #include <math.h>
-int main(int argc, char** argv) {
+int main() {
     double array[10];
-    double sum =0.00;
-    double r = 4545.45;
-    double j = 5454.55;
-    double res = 0.00;
+    double sum =0;
+    double res = 0;
     for(int i = 0; i < 10; ++i) {
         scanf("%lf", &array[i]);
         sum += array[i];
     }
     res = (double)sum / 10;
-    if (sum == r ) 
-        res = sum / 10 + 0.01;
-    if (sum == j ) 
-        res = sum / 10 + 0.01;
+    double qw = round(sum * 100.0) / 1000.0;
     
-    printf("%.2lf\n", res);
+    printf("%.2lf\n", qw);
 }
-
 
