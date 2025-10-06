@@ -8,6 +8,6 @@ int main(int argc, char** argv) {
         sum += array[i];
     }
     res = sum / 10;
-    printf("ответ: %.2f\n", res);
+    printf("%.2f\n", res);
 }
 
