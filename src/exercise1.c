@@ -9,8 +9,6 @@ int main() {
         sum += array[i];
     }
     res = (double)sum / 10;
-    double qw = round(sum * 100.0) / 1000.0;
     
-    printf("%.2lf\n", qw);
+    printf("%.2lf\n", res);
 }
-
