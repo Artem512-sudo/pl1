@@ -13,11 +13,10 @@ int main(int argc, char** argv) {
     res = (double)sum / 10;
     if (sum == r ) 
         res = sum / 10 + 0.01;
-     if (sum == j ) 
+    if (sum == j ) 
         res = sum / 10 + 0.01;
     
     printf("%.2lf\n", res);
 }
-
 
 
