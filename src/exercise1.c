@@ -7,6 +7,6 @@ int main() {
         scanf("%lf", &array[i]);
         sum += array[i];
     }
-    double qw = round(sum * 100) / 1000; 
+    double qw = round(sum * 10) / 100; 
     printf("%.2lf\n", qw);
 }
